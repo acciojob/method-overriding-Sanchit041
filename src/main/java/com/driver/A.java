@@ -4,10 +4,8 @@ import java.util.StringJoiner;
 
 public class A {
 
-    A()
-    {
-    }
-    String function()
+
+    static String meth()
     {
         return "Invoking method from class A";
     }

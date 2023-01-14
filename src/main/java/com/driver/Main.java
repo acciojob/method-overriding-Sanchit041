@@ -3,10 +3,11 @@ package com.driver;
 public class Main {
     public static void main(String[] args) {
         B a = new B();
-        a.function();
-        a.function1();
-        System.out.println(a.function());
-        System.out.println(a.function1());
+        A b = new B();
+        b.meth();
+        a.meth();
+        System.out.println(b.meth());
+        System.out.println(a.meth());
     }
   
 }
